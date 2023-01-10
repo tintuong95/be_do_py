@@ -12,10 +12,10 @@ mysql = MySQL()
 api = Api(app)
 
 """ Set database credentials in config."""
-app.config['MYSQL_DATABASE_USER'] = 'root'
-app.config['MYSQL_DATABASE_PASSWORD'] = ''
-app.config['MYSQL_DATABASE_DB'] = 'students'
-app.config['MYSQL_DATABASE_HOST'] = 'localhost'
+app.config['MYSQL_DATABASE_USER'] = 'c321znlmcczphghy'
+app.config['MYSQL_DATABASE_PASSWORD'] = 'ehfv5vyrdf5sb68j'
+app.config['MYSQL_DATABASE_DB'] = 'dnu14l6lgeta354i'
+app.config['MYSQL_DATABASE_HOST'] = 'qz8si2yulh3i7gl3.cbetxkdyhwsb.us-east-1.rds.amazonaws.com'
 
 """ Initialize the MySQL extension"""
 mysql.init_app(app)
